@@ -1,0 +1,6 @@
+html, body, .left, .right {
+    height: 100%;
+}
+.left {
+    padding-right: 0;
+}
