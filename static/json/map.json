@@ -16,8 +16,8 @@
     "name": "代理模式"
   },
   {
-    "file": "SimpleFactory",
-    "name": "简单工厂模式"
+    "file": "FactoryMethod",
+    "name": "工厂方法模式"
   },
   {
     "file": "SimpleFactory",
