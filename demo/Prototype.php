@@ -1,7 +1,6 @@
 <?php
 // 暂时不知道这个模式在PHP中有什么作用，只知道能减少内存消耗
 $person1 = new \package\Prototype\Person();
-$person3 = $person1->deepClone();
 ?>
 <h2>原型模式</h2>
 <ul class="list-group">
