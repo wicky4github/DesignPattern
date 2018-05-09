@@ -76,7 +76,7 @@ if ($variety != '') {
 </div>
 <script>
     var variety = "<?php echo $variety; ?>";
-    var dressing = JSON.parse('<?php echo json_encode($dressing) ?>');
+    var dressing = JSON.parse('<?php echo json_encode($dressing) ?>') || '';
     $(function () {
         $('[name=variety]').each(function () {
             $(this).prop('checked', $(this).val() === variety);
