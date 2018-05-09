@@ -28,8 +28,8 @@
     "name": "模板方法模式"
   },
   {
-    "file": "SimpleFactory",
-    "name": "简单工厂模式"
+    "file": "Facade",
+    "name": "外观模式"
   },
   {
     "file": "SimpleFactory",
