@@ -1,3 +1,8 @@
+### 下载
+- git clone https://github.com/wicky4github/DesignPattern.git
+- cd DesignPattern
+- composer install 或 composer dump-autoload
+
 ### 设计模式
 1. 工厂方法模式	        Factory Method Pattern
 2. 抽象工厂模式	        Abstract Factory Pattern
@@ -22,8 +27,3 @@
 21. 策略模式	            Strategy Pattern
 22. 模板方法模式	        Template Method Pattern
 23. 访问者模式	        Visitor Pattern
-
-### 下载
-- git clone https://github.com/wicky4github/DesignPattern.git
-- cd DesignPattern
-- composer install 或 composer dump-autoload
