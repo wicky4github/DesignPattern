@@ -1,6 +1,6 @@
 ### 下载
-- git clone https://github.com/wicky4github/DesignPattern.git
-- cd DesignPattern
+- git clone https://github.com/wicky4github/design-pattern-php.git
+- cd design-pattern-php
 - composer install 或 composer dump-autoload
 
 ### 设计模式
