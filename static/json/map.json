@@ -4,8 +4,8 @@
     "name": "简单工厂模式"
   },
   {
-    "file": "SimpleFactory",
-    "name": "简单工厂模式"
+    "file": "Strategy",
+    "name": "策略模式"
   },
   {
     "file": "SimpleFactory",
