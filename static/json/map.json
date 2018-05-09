@@ -8,8 +8,8 @@
     "name": "策略模式"
   },
   {
-    "file": "SimpleFactory",
-    "name": "简单工厂模式"
+    "file": "Decorate",
+    "name": "装饰器模式"
   },
   {
     "file": "SimpleFactory",

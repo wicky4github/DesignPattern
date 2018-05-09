@@ -1,8 +1,8 @@
 <?php
 $result = 0;
-$num1 = is_numeric($_GET['num1']) ? $_GET['num1'] : 0;
-$num2 = is_numeric($_GET['num2']) ? $_GET['num2'] : 0;
-$operation = $_GET['operation'];
+$num1 = is_numeric($_GET['num1']) ? $_GET['num1'] : 1;
+$num2 = is_numeric($_GET['num2']) ? $_GET['num2'] : 1;
+$operation = isset($_GET['operation']) ? $_GET['operation'] : '+';
 if ($operation != '') {
     try {
         // 创建工厂
@@ -30,21 +30,21 @@ if ($operation != '') {
             <input type="hidden" name="file" value="<?php echo $_DEMO_file; ?>">
             <div class="form-group">
                 <label for="num1" class="col-sm-2 control-label">数字1</label>
-                <div class="col-sm-1">
+                <div class="col-sm-2">
                     <input type="number" class="form-control" id="num1" name="num1" value="<?php echo $num1; ?>"
                            placeholder="输入数字" required>
                 </div>
             </div>
             <div class="form-group">
                 <label for="num2" class="col-sm-2 control-label">数字2</label>
-                <div class="col-sm-1">
+                <div class="col-sm-2">
                     <input type="number" class="form-control" id="num2" name="num2" value="<?php echo $num2; ?>"
                            placeholder="输入数字" required>
                 </div>
             </div>
             <div class="form-group">
                 <label for="operation" class="col-sm-2 control-label">操作符</label>
-                <div class="col-sm-1">
+                <div class="col-sm-2">
                     <select name="operation" id="operation" class="form-control">
                         <option>+</option>
                         <option>-</option>

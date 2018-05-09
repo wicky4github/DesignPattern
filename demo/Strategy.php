@@ -27,14 +27,14 @@ if ($operation != '') {
             <input type="hidden" name="file" value="<?php echo $_DEMO_file; ?>">
             <div class="form-group">
                 <label for="num1" class="col-sm-2 control-label">单价</label>
-                <div class="col-sm-1">
+                <div class="col-sm-2">
                     <input type="number" class="form-control" id="num1" name="num1" value="<?php echo $num1; ?>"
                            placeholder="输入数字" required min="0">
                 </div>
             </div>
             <div class="form-group">
                 <label for="num2" class="col-sm-2 control-label">数量</label>
-                <div class="col-sm-1">
+                <div class="col-sm-2">
                     <input type="number" class="form-control" id="num2" name="num2" value="<?php echo $num2; ?>"
                            placeholder="输入数字" required min="0">
                 </div>
