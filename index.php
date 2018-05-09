@@ -65,7 +65,7 @@ require_once 'include/functions.php';
                         if (i % 9 === 3) return 'success';
                         if (i % 9 === 5) return 'warning';
                         if (i % 9 === 7) return 'danger';
-                        if (i % 9 === 9) return 'info';
+                        if (i % 9 === 0 && i !== 0) return 'info';
                         return '';
                     }
 
