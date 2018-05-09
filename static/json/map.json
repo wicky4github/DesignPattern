@@ -12,8 +12,8 @@
     "name": "装饰器模式"
   },
   {
-    "file": "SimpleFactory",
-    "name": "简单工厂模式"
+    "file": "Proxy",
+    "name": "代理模式"
   },
   {
     "file": "SimpleFactory",
