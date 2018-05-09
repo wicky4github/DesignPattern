@@ -14,6 +14,11 @@ class CashContext
      */
     protected $Cash;
 
+    /**
+     * CashContext constructor.
+     * @param $type
+     * @throws \Exception
+     */
     public function __construct($type)
     {
         // 简单工厂： 创建策略
@@ -28,7 +33,7 @@ class CashContext
                 $this->Cash = new CashRebate(0.8);
                 break;
             default:
-                throw new \Exception('未知计算方式');
+                throw new \Exception("未知计算方式：$type");
         }
     }
 

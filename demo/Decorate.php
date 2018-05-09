@@ -12,7 +12,7 @@ if ($variety != '') {
                 $coffee = new \package\Decorate\Espresso();
                 break;
             default:
-                throw new Exception('未知品种');
+                throw new Exception("未知品种：$variety");
         }
         foreach ($dressing as $v) {
             switch ($v) {

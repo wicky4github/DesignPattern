@@ -26,7 +26,7 @@ class OperationFactory
                 $obj = new Div();
                 break;
             default:
-                throw new \Exception('未知操作运算符：' . $operation);
+                throw new \Exception("未知操作运算符：$operation");
                 break;
         }
         return $obj;
