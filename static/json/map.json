@@ -24,8 +24,8 @@
     "name": "原型模式"
   },
   {
-    "file": "SimpleFactory",
-    "name": "简单工厂模式"
+    "file": "TemplateMethod",
+    "name": "模板方法模式"
   },
   {
     "file": "SimpleFactory",
