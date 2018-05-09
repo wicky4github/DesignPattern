@@ -22,7 +22,7 @@ $person1 = new \package\Prototype\Person();
     <li class="list-group-item">
         <?php
         // 深拷贝person对象的私有属性property是新对象，因此深拷贝出来的对象改变属性不会影响旧对象
-        $person2 = $person1->deepClone();
+        $person3 = $person1->deepClone();
         $person3->getProperty()->setName('王五');
         var_dump($person1);
         var_dump($person3);
