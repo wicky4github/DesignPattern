@@ -22,24 +22,24 @@ if ($operation != '') {
 ?>
 <h2>简单工厂模式</h2>
 <form class="form-horizontal">
-    <input type="hidden" name="file" value="<?php echo $file; ?>">
+    <input type="hidden" name="file" value="<?php echo $_DEMO_file; ?>">
     <div class="form-group">
         <label for="num1" class="col-sm-2 control-label">数字1</label>
-        <div class="col-sm-10">
+        <div class="col-sm-1">
             <input type="number" class="form-control" id="num1" name="num1" value="<?php echo $num1; ?>"
                    placeholder="输入数字" required>
         </div>
     </div>
     <div class="form-group">
         <label for="num2" class="col-sm-2 control-label">数字2</label>
-        <div class="col-sm-10">
+        <div class="col-sm-1">
             <input type="number" class="form-control" id="num2" name="num2" value="<?php echo $num2; ?>"
                    placeholder="输入数字" required>
         </div>
     </div>
     <div class="form-group">
         <label for="operation" class="col-sm-2 control-label">操作符</label>
-        <div class="col-sm-10">
+        <div class="col-sm-1">
             <select name="operation" id="operation" class="form-control">
                 <option value="+">+</option>
                 <option value="-">-</option>

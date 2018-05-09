@@ -35,15 +35,15 @@ require_once 'include/functions.php';
             ?>
         </ul>
         <?php
-        isset($_GET['file']) and $file = $_GET['file'];
-        $path = './demo/' . $file . '.php';
+        isset($_GET['file']) and $_DEMO_file = $_GET['file'];
+        $_DEMO_path = './demo/' . $_DEMO_file . '.php';
         ?>
         <div class="right col-xs-10">
-            <?php if (is_file($path)) { ?>
-                <?php include $path; ?>
+            <?php if (is_file($_DEMO_path)) { ?>
+                <?php include $_DEMO_path; ?>
             <?php } else { ?>
                 <?php
-                if ($file != '') {
+                if ($_DEMO_file != '') {
                     showError('案例不存在！');
                 }
                 ?>
@@ -70,7 +70,7 @@ require_once 'include/functions.php';
                     }
 
                     $(function () {
-                        $.get('static/js/map.json', function (map) {
+                        $.get('static/json/map.json', function (map) {
                             console.log(map);
                             for (var i = 0, count = map.length, body = '', trClass = ''; i < count; i++) {
                                 trClass = getTrClass(i + 1);
