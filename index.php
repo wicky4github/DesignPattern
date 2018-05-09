@@ -61,6 +61,7 @@ require_once 'include/functions.php';
                 </div>
                 <script>
                     function getTrClass(i) {
+                        if (i >= 10) i %= 10;
                         if (i % 9 === 1) return 'active';
                         if (i % 9 === 3) return 'success';
                         if (i % 9 === 5) return 'warning';
