@@ -42,5 +42,9 @@
   {
     "file": "AbstractFactory",
     "name": "抽象工厂模式"
+  },
+  {
+    "file": "State",
+    "name": "状态模式"
   }
 ]
