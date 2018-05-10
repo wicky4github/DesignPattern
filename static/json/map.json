@@ -74,5 +74,9 @@
   {
     "file": "Command",
     "name": "命令模式"
+  },
+  {
+    "file": "ChainOfResponsibility",
+    "name": "责任链模式"
   }
 ]
