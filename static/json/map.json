@@ -58,5 +58,9 @@
   {
     "file": "Composite",
     "name": "组合模式"
+  },
+  {
+    "file": "Iterator",
+    "name": "迭代器模式"
   }
 ]
