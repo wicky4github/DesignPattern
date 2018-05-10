@@ -86,5 +86,13 @@
   {
     "file": "Flyweight",
     "name": "享元模式"
+  },
+  {
+    "file": "Interpreter",
+    "name": "解释器模式"
+  },
+  {
+    "file": "Visitor",
+    "name": "访问者模式"
   }
 ]
