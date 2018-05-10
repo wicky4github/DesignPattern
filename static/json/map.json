@@ -78,5 +78,9 @@
   {
     "file": "ChainOfResponsibility",
     "name": "责任链模式"
+  },
+  {
+    "file": "Mediator",
+    "name": "中介者模式"
   }
 ]
