@@ -70,5 +70,9 @@
   {
     "file": "Bridge",
     "name": "桥接模式"
+  },
+  {
+    "file": "Command",
+    "name": "命令模式"
   }
 ]
