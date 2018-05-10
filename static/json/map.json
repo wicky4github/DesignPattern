@@ -50,5 +50,9 @@
   {
     "file": "Adapter",
     "name": "适配器模式"
+  },
+  {
+    "file": "Memento",
+    "name": "备忘录模式"
   }
 ]
