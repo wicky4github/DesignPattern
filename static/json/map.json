@@ -82,5 +82,9 @@
   {
     "file": "Mediator",
     "name": "中介者模式"
+  },
+  {
+    "file": "Flyweight",
+    "name": "享元模式"
   }
 ]
