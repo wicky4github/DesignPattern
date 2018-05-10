@@ -7,7 +7,7 @@ namespace package\AbstractFactory\Engine;
  * Class WEngine
  * @package package\AbstractFactory\Engine
  */
-class WEngine implements Engine
+class WEngine extends Engine
 {
 
     public function work()

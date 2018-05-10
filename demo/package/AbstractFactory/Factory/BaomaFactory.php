@@ -5,7 +5,7 @@ namespace package\AbstractFactory\Factory;
 use package\AbstractFactory\Conditioner\HaierAirConditioner;
 use package\AbstractFactory\Engine\VEngine;
 
-class BaomaFactory implements CarFactory
+class BaomaFactory extends CarFactory
 {
 
     public function installAirConditioner()

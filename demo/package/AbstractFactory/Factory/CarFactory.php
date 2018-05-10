@@ -2,14 +2,13 @@
 
 namespace package\AbstractFactory\Factory;
 
-
 /**
  * 扮演 Abstract Factory
- * Interface CarFactory
+ * class CarFactory
  * @package package\AbstractFactory\Factory
  */
-interface CarFactory
+abstract class CarFactory
 {
-    public function installAirConditioner();
-    public function installEngine();
+    abstract public function installAirConditioner();
+    abstract public function installEngine();
 }

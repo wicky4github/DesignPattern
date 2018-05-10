@@ -4,10 +4,10 @@ namespace package\AbstractFactory\Engine;
 
 /**
  * 扮演 Abstract Product B
- * Interface Engine
+ * class Engine
  * @package package\AbstractFactory\Engine
  */
-interface Engine
+abstract class Engine
 {
-    public function work();
+    abstract public function work();
 }

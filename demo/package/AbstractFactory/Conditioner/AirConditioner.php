@@ -4,11 +4,11 @@ namespace package\AbstractFactory\Conditioner;
 
 /**
  * 扮演 Abstract Product A
- * Interface AirConditioner
+ * class AirConditioner
  * @package package\AbstractFactory\Conditioner
  */
 
-interface AirConditioner
+abstract class AirConditioner
 {
-    public function work();
+    abstract public function work();
 }

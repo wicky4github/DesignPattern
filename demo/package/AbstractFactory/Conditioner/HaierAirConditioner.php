@@ -7,7 +7,7 @@ namespace package\AbstractFactory\Conditioner;
  * Class HaierAirConditioner
  * @package package\AbstractFactory\Conditioner
  */
-class HaierAirConditioner implements AirConditioner
+class HaierAirConditioner extends AirConditioner
 {
 
     public function work()

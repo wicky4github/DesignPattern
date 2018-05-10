@@ -5,7 +5,7 @@ namespace package\AbstractFactory\Factory;
 use package\AbstractFactory\Conditioner\MeidiAirConditioner;
 use package\AbstractFactory\Engine\WEngine;
 
-class BenchiFactory implements CarFactory
+class BenchiFactory extends CarFactory
 {
 
     public function installAirConditioner()

@@ -7,7 +7,7 @@ namespace package\AbstractFactory\Conditioner;
  * Class MeidiAirConditioner
  * @package package\AbstractFactory\Conditioner
  */
-class MeidiAirConditioner implements AirConditioner
+class MeidiAirConditioner extends AirConditioner
 {
 
     public function work()
