@@ -66,5 +66,9 @@
   {
     "file": "Singleton",
     "name": "单例模式"
+  },
+  {
+    "file": "Bridge",
+    "name": "桥接模式"
   }
 ]
