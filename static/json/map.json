@@ -62,5 +62,9 @@
   {
     "file": "Iterator",
     "name": "迭代器模式"
+  },
+  {
+    "file": "Singleton",
+    "name": "单例模式"
   }
 ]
