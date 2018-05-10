@@ -38,5 +38,9 @@
   {
     "file": "Observer",
     "name": "观察者模式"
+  },
+  {
+    "file": "AbstractFactory",
+    "name": "抽象工厂模式"
   }
 ]
