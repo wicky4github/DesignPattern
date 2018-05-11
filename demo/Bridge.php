@@ -18,7 +18,8 @@
                   / \                                / \
         SamsungGame SamsungContact          HuaweiGame  HuaweiContact
 
-    如果要增加一个品牌/软件，就要加多2个类（NewBrandGame，NewBrandContact）；
+    如果要增加一个品牌（NewBrand）和软件（NewSoft），就要增加个6类：
+        NewBrand, NewBrandGame, NewBrandContact, NewBrandNewSoft, SamsungNewSoft, HuaweiNewSoft
 </pre>
 <h2>桥接模式</h2>
 <?php
@@ -48,4 +49,5 @@ $huawei->runSoft();
                              |                            |
                     |----------------|          |-------------------|
                 Samsung           Huawei      Game                Contact
+    如果要增加一个品牌和软件，只需要添加 NewBrand, NewSoft 2个类
 </pre>
